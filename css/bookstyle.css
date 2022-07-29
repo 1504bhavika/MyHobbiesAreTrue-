@@ -37,7 +37,7 @@ html{
 .navbar  h1{
  
   display: block;
-  font-size: 5em;
+  font-size: 3em;
   font-family:  'Dancing Script', cursive;    
   color: goldenrod;
   border-right: 120px;
@@ -54,7 +54,7 @@ html{
   background-color:khaki;
   border: 3px solid rgb(90, 11, 11);
   font-weight: 9000;
-  font-size: 4em;
+  font-size: 2em;
   text-transform:capitalize;
   font-family:  'Dancing Script', cursive;    
   color: rgb(90, 11, 11);
@@ -64,7 +64,7 @@ html{
 /* novel names */
 p{
     color: black; 
-    font-size: 4em;
+    font-size: 2em;
     font-display:fallback;
     font-family:  'Dancing Script', cursive;  
     font-weight: 1000;
@@ -86,8 +86,6 @@ div{
 }
   /* footer */
 footer {
-    position: fixed;
-    font-size: xx-large;
     left: 0;
     bottom: 0;
     width: 100%;
