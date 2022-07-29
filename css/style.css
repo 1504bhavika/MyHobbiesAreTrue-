@@ -60,16 +60,7 @@
 
       opacity: 0.8;
 }
-footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: black;
-    color: white;
-    text-align: center;
-    padding: 9px 20px;
-    
-  }
+
 
 .h-secondary{
 font-size: 4em;
@@ -85,3 +76,13 @@ font-size: 4em;
  
     
 }
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 9px 20px;
+    
+  }
