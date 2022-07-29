@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    text-decoration:none;
+} 
+html{
+    scroll-behavior: smooth;
+}
+
+/* navigation bar */
+.navbar{
+   
+    border-radius: 5px;
+    border:2px solid goldenrod;
+    background-color:darkgreen;
+    overflow: hidden;
+    
+}
+
+.navbar ul{
+    display: flex;
+    overflow: auto;
+    padding-inline-start: 10px;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    
+    
+}
+.navbar  h1{
+   
+    display: block;
+    font-size: 5em;
+    font-family:  'Dancing Script', cursive;    
+    color: goldenrod;
+    border-right: 120px;
+ 
+   
+    
+}
+.navbar h1:hover{
+    color:bisque;
+}
+
+/* my hindi poems box */
+.h-primary{margin-top: 10px;
+    background-color:khaki;
+    border: 3px solid rgb(90, 11, 11);
+    font-weight: 9000;
+    font-size: 4em;
+    text-transform:capitalize;
+    font-family:  'Dancing Script', cursive;    
+    color: rgb(90, 11, 11);
+    border-right: 120px;
+    text-align:center;
+}
+
+/* poem box headings */
+h2{margin-top: 10px;
+    font-family:   'Kalam', cursive;
+    font-size: 5em;
+    color: goldenrod;
+    border-right: 120px;
+
+
+} 
+/* poems box */
+#poems{
+    margin: 40px;
+    display: flex;
+}
+#poems .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 10px 50px;
+    border-radius: 28px;
+    background: #f2f2f2;
+}
+
+#poems .box p{
+    font-family: 'Kalam', cursive;
+    font-size: 2.6em;
+
+   
+
+}
+
+/* footer */
+footer {
+    font-size: xx-large;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 9px 20px;
+  }

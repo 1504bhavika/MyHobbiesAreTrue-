@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    text-decoration:none;
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* navigation bar */
+.navbar{
+   
+  border-radius: 5px;
+  border:2px solid goldenrod;
+  background-color:darkgreen;
+  overflow: hidden;
+  
+}
+
+.navbar ul{
+  display: flex;
+  overflow: auto;
+  padding-inline-start: 10px;
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+}
+.navbar li{
+  float:left;
+  list-style: none; 
+  
+  
+}
+.navbar  h1{
+ 
+  display: block;
+  font-size: 5em;
+  font-family:  'Dancing Script', cursive;    
+  color: goldenrod;
+  border-right: 120px;
+
+ 
+  
+}
+.navbar h1:hover{
+  color:bisque;
+}
+
+/* novels i have read box */
+.h-primary{margin-top: 10px;
+  background-color:khaki;
+  border: 3px solid rgb(90, 11, 11);
+  font-weight: 9000;
+  font-size: 4em;
+  text-transform:capitalize;
+  font-family:  'Dancing Script', cursive;    
+  color: rgb(90, 11, 11);
+  border-right: 120px;
+  text-align:center;
+}
+/* novel names */
+p{
+    color: black; 
+    font-size: 4em;
+    font-display:fallback;
+    font-family:  'Dancing Script', cursive;  
+    font-weight: 1000;
+    text-transform: capitalize;
+    text-align: left;
+}
+p:hover{
+    color:red;
+    text-shadow: 2px 2px white;
+
+}
+/* novel name box */
+div{
+   
+    border: 10px inset green ;
+    padding: 20px;
+    margin: 20px;
+    background-image:linear-gradient(170deg,rgb(246, 218, 61),rgb(142, 228, 142));
+}
+  /* footer */
+footer {
+    position: fixed;
+    font-size: xx-large;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 9px 20px;
+  }
