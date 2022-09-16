@@ -87,8 +87,9 @@ h2{margin-top: 10px;
 #poems .box p{
     font-family: 'Kalam', cursive;
     font-size: 1.6em;
-
-   
+}
+#poem-container{
+    overflow-x:auto;
 
 }
 
