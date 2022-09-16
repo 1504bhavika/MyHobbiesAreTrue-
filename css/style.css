@@ -31,6 +31,7 @@
 .hobbies-container {
     position: relative;
     display:flex;
+    position: left;
   }
 
 #hobbies{
