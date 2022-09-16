@@ -47,7 +47,10 @@ html{
 }
 
 /* my hindi poems box */
-.h-primary{margin-top: 10px;
+.h-primary{
+    display: flexbox;
+    overflow: auto;
+    margin-top: 10px;
     background-color:khaki;
     border: 3px solid rgb(90, 11, 11);
     font-weight: 9000;
@@ -70,13 +73,13 @@ h2{margin-top: 10px;
 } 
 /* poems box */
 #poems{
-    margin: 40px;
+    margin: 20px;
     display: flex;
 }
 #poems .box{ 
     border: 2px solid brown;
     padding: 34px;
-    margin: 10px 50px;
+    margin: 10px 10px;
     border-radius: 28px;
     background: #f2f2f2;
 }
@@ -91,6 +94,7 @@ h2{margin-top: 10px;
 
 /* footer */
 footer {
+font-size: xx-large;
     left: 0;
     bottom: 0;
     width: 100%;
