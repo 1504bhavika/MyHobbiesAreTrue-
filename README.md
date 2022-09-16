@@ -1,5 +1,5 @@
 # MyHobbiesAreTrue!
 Built a frontend project using HTML,CSS to showcase my hobbies.
 
-PROJECT DEMONSTRATION
-myhobbiesaretrue.netlify.app
+PROJECT DEMONSTRATION : 
+https://myhobbiesaretrue.netlify.app
