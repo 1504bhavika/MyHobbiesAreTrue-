@@ -86,10 +86,6 @@ h2{margin-top: 10px;
     font-family: 'Kalam', cursive;
     font-size: 1.6em;
 }
-#poem-container{
-    overflow-x:auto;
-
-}
 
 /* footer */
 footer {
