@@ -84,12 +84,12 @@ footer {
     color: white;
     text-align: center;
     padding: 9px 20px;
-    font-size: xx-large;
+    /*font-size: xx-large;*/
   }
    
   @media screen and (max-width: 992px) {
     #container {
-      flex: 50%;
-      max-width: 50%;
+      flex: 100%;
+      max-width: 100%;
     }
   }
