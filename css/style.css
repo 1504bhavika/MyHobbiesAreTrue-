@@ -89,8 +89,8 @@ footer {
   }
   
   
-   @media screen and (min-width: 1024px)  {
-    .box {
+   @media screen and (max-width: 992px)  {
+    #container {
       flex: 50%;
       max-width: 50%;
     }
