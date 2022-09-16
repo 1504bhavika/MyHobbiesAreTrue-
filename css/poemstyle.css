@@ -48,8 +48,6 @@ html{
 
 /* my hindi poems box */
 .h-primary{
-    display: flex;
-    overflow: auto;
     margin-top: 10px;
     background-color:khaki;
     border: 3px solid rgb(90, 11, 11);
