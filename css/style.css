@@ -20,7 +20,7 @@
     padding:15px;
      border:5px solid #493a09;
     font-family:'Dancing Script', cursive; ;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-block-start: 0px;
     margin-block-end: 2px;
     color: rgb(5, 5, 5);
@@ -63,7 +63,7 @@
 
 
 .h-secondary{
-font-size: 4em;
+font-size: 2em;
     font-family: 'Dancing Script', cursive;
      transform: translate(0%, -100%); 
     bottom: 20px;
