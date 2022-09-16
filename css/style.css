@@ -30,6 +30,7 @@
 }
 .hobbies-container {
     position: relative;
+    display:flex;
   }
 
 #hobbies{
